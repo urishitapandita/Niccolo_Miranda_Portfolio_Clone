@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Canopee;
+    src: url(./fonts/Canopee.ttf);
+}
+@font-face {
+    font-family: Domain;
+    src: url(./fonts/DomaineDispCondMedium.ttf);
+}
+@font-face {
+    font-family: Editorial;
+    src: url(./fonts/EditorialNew-Light.ttf);
+}
+@font-face {
+    font-family: Dynasty;
+    src: url(./fonts/Dynasty\ Fantazy\ Demo.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: #1c1c19;
+}
+
+.nav img{
+    height: 40px;
+    width: 150px;
+}
+.canopee{
+    font-family: Canopee;
+}
+.domain{
+    font-family: Domain;
+}
+.editorial{
+    font-family: Editorial;
+}
+.dynasty{
+    font-family: Dynasty;
+}
+.line-h{
+    line-height: 8vw;
+}
+.line-hp{
+    line-height: 3vw;
+}
+.line-hh{
+    line-height: 7.9vw;
+}
+.line-ww{
+    letter-spacing: -1.5vw;
+}
+.line-hpp{
+    line-height: 2.5vw;
+}
+.line-hhh{
+    line-height: 8vw;
+}
+.line-l{
+    line-height: 6vw;
+}
+.line-sll{
+    line-height: 2.5vw;
+}
+.line-sl{
+    line-height: 2vw;
+}
+.line-20{
+    line-height: 20vw;
+}
+
+#arrow{
+    transition: all ease 0.6s;
+    transform: translateX(-120%);
+}
+#arrowH1{
+    transition: all ease 0.6s;
+    transform: translateX(-25%);
+}
+.oval{
+    transition: all ease 0.6s;
+    
+}
+.oval:hover #arrow{
+    transition: all ease 0.6s;
+    transform: translateX(75%);
+    
+
+}
+.oval:hover #arrowH1{
+    transition: all ease 0.6s;
+    transform: translateX(140%);
+}
+.marquee::-webkit-scrollbar{
+    display: none;
+}
+@keyframes mymarquee {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(calc(-100% - 25px));
+    }
+}
+#marquee{
+    animation: mymarquee linear 3s infinite;
+}
+.marquee:hover #marquee{
+    animation-play-state: paused;
+}
+#hoverImg{
+    transition: all ease 0.5s;
+}
+#hoverImg:hover{
+    transition: all ease 0.5s;
+    scale: 1.2;
+}
+#imgDiv{
+    transition: all ease 0.5s;
+    overflow: hidden;
+
+}

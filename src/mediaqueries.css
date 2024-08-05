@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px) {
+    .nav{
+       height: 5vh;
+
+    }
+    .main{
+        padding-top: 12vw;
+    }
+    .miranda{
+        height: 13vh;
+    }
+    .website{
+        height: 15vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 4vw 0 4vw 0 ;
+    }
+    .website h1{
+        font-size: 36vw;
+    }
+    .webs{
+        justify-content: center;
+    }
+    .webs img{
+        display: none;
+        visibility: hidden;
+    }
+    .awwwards{
+        display: none;
+        visibility: hidden;
+    }
+}
